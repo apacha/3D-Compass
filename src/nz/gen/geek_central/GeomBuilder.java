@@ -1,4 +1,4 @@
-package nz.gen.geek_central.GLUseful;
+package nz.gen.geek_central;
 /*
     Easy construction and application of buffers needed for OpenGL-ES drawing.
     This version is for OpenGL-ES 2.0 and allows customization of the vertex
@@ -20,6 +20,8 @@ package nz.gen.geek_central.GLUseful;
 */
 
 import java.util.ArrayList;
+
+import nz.gen.geek_central.GLUseful.GLUseful;
 
 public class GeomBuilder
   /*

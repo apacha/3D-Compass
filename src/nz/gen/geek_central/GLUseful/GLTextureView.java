@@ -18,6 +18,8 @@ package nz.gen.geek_central.GLUseful;
 */
 
 import static nz.gen.geek_central.GLUseful.GLUseful.gl;
+import nz.gen.geek_central.Mat4f;
+import nz.gen.geek_central.Vec3f;
 
 public class GLTextureView
   {

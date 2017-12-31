@@ -1,4 +1,4 @@
-package nz.gen.geek_central.Compass3D;
+package nz.gen.geek_central;
 /*
     Useful camera-related stuff.
 

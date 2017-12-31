@@ -22,6 +22,8 @@ package nz.gen.geek_central.Compass3D;
 
 import javax.microedition.khronos.opengles.GL10;
 
+import nz.gen.geek_central.GLUseful.GLUseful;
+
 public class MainView extends android.opengl.GLSurfaceView
   {
     public interface Handler

@@ -1,4 +1,6 @@
-package nz.gen.geek_central.Compass3D;
+package nz.gen.geek_central;
+
+import nz.gen.geek_central.GeomBuilder.Obj;
 /*
     Graphical display of compass arrow.
 
@@ -17,10 +19,6 @@ package nz.gen.geek_central.Compass3D;
     the License.
 */
 
-import nz.gen.geek_central.GLUseful.Mat4f;
-import nz.gen.geek_central.GLUseful.Vec3f;
-import nz.gen.geek_central.GLUseful.GeomBuilder;
-import nz.gen.geek_central.GLUseful.Lathe;
 
 public class Compass
   {
@@ -32,7 +30,7 @@ public class Compass
     private static final float BaseBevel = 0.2f * BodyThickness;
     private static final int NrSectors = 12;
 
-    private final GeomBuilder.Obj Arrow;
+    private final Obj Arrow;
 
     public Compass
       (

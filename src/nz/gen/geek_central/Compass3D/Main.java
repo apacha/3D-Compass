@@ -23,12 +23,16 @@ import android.graphics.ImageFormat;
 import android.widget.Toast;
 import android.view.View;
 import android.hardware.Camera;
-import nz.gen.geek_central.GLUseful.Mat4f;
-import nz.gen.geek_central.GLUseful.Vec3f;
-import nz.gen.geek_central.GLUseful.GLUseful;
 import static nz.gen.geek_central.GLUseful.GLUseful.gl;
-import nz.gen.geek_central.GLUseful.GLTextureView;
+import nz.gen.geek_central.CameraList;
+import nz.gen.geek_central.CameraUseful;
+import nz.gen.geek_central.Compass;
+import nz.gen.geek_central.Mat4f;
+import nz.gen.geek_central.Vec3f;
+import nz.gen.geek_central.Compass3D.R;
 import nz.gen.geek_central.GLUseful.GLBitmapView;
+import nz.gen.geek_central.GLUseful.GLTextureView;
+import nz.gen.geek_central.GLUseful.GLUseful;
 
 public class Main extends android.app.Activity
   {

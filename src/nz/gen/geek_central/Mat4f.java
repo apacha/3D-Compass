@@ -1,4 +1,4 @@
-package nz.gen.geek_central.GLUseful;
+package nz.gen.geek_central;
 /*
     Functional 3D matrix operations. Matrix elements are in row-major order.
     Vectors are treated as column vectors and premultiplied, i.e.

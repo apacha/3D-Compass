@@ -1,4 +1,4 @@
-package nz.gen.geek_central.GLUseful;
+package nz.gen.geek_central;
 /*
     functional 3D vector operations
 

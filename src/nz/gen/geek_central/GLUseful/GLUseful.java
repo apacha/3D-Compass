@@ -23,6 +23,9 @@ import java.nio.IntBuffer;
 import java.nio.ShortBuffer;
 import java.nio.ByteOrder;
 
+import nz.gen.geek_central.Mat4f;
+import nz.gen.geek_central.Vec3f;
+
 public class GLUseful
   {
     public static final android.opengl.GLES20 gl = new android.opengl.GLES20(); /* for easier references */
@@ -605,7 +608,7 @@ public class GLUseful
             final int Result = gl.glGetUniformLocation(id, Name);
             if (MustExist && Result < 0)
               {
-                throw new RuntimeException("no location for uniform “" + Name + "”");
+                throw new RuntimeException("no location for uniform “" + Name + "�?");
               } /*if*/
             return Result;
           } /*GetUniform*/
@@ -620,7 +623,7 @@ public class GLUseful
             final int Result = gl.glGetAttribLocation(id, Name);
             if (MustExist && Result < 0)
               {
-                throw new RuntimeException("no location for attribute “" + Name + "”");
+                throw new RuntimeException("no location for attribute “" + Name + "�?");
               } /*if*/
             return Result;
           } /*GetAttrib*/
@@ -838,7 +841,7 @@ public class GLUseful
             final UniformLocInfo VarInfo = UniformLocs.get(VarRef.Name);
             if (VarInfo == null)
               {
-                throw new RuntimeException("no such uniform variable “" + VarRef.Name + "”");
+                throw new RuntimeException("no such uniform variable “" + VarRef.Name + "�?");
               } /*if*/
             switch (VarInfo.Type)
               {

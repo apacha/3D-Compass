@@ -1,4 +1,4 @@
-package nz.gen.geek_central.Compass3D;
+package nz.gen.geek_central;
 /*
     Display a list of available cameras and let the user choose one to use.
     This Activity requires API level 9 or later.
@@ -18,6 +18,7 @@ package nz.gen.geek_central.Compass3D;
     the License.
 */
 
+import nz.gen.geek_central.Compass3D.R;
 import android.hardware.Camera;
 import android.view.KeyEvent;
 import android.view.View;
